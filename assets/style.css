@@ -1,0 +1,85 @@
+h2 {
+    font-family: fantasy; 
+ }
+ .item {
+     font-family: fantasy;
+ }
+ p {
+     color: black;
+ }
+ .top {
+     /* float: left; */
+     position: relative;
+     top: 0;
+     left: 0;
+ 
+ }
+ .bottom {
+     /* float: left; */
+     opacity: .85    ;
+     position: absolute;
+     /* align-content: inherit; */
+     /* align-content: center; */
+     top: 80px;
+     left: 40%;
+     bottom: 60px;
+     right: 80px;
+     width: 250px;
+     height: 250px;
+ }
+ #top1 {
+     color: rgb(2, 62, 228);
+     font-size: 20px;
+     position: absolute;
+     align-content: inherit;
+     padding-left: 80px;
+     padding-top: 200px;
+ }
+ #Name {
+ 
+     color: black;
+     position: fixed;
+     /* position: absolute; */
+    top: 2.3%;
+    left: 43%;
+     z-index: 1;
+ }
+ #quote2 {
+     color: rgb(2, 62, 228);
+     font-size: 20px;
+     position: absolute;
+     align-content: inherit;
+     padding-left: 280px;
+     padding-top: 200px;
+ }
+ #port {
+     font-size: 3rem;
+     text-shadow: 5px 5px 2.5px black;
+ 
+ }
+ #link1 {
+     font-size: 2rem;
+     color: orange;
+     text-shadow: 5px 5px 2.5px black;
+ }
+ #link2 {
+     color: orange;
+     font-size: 2rem;
+     text-shadow: 5px 5px 2.5px black;
+ 
+ }
+ #link3 {
+     font-size: 2rem;
+     color: orange;    
+     text-shadow: 5px 5px 2.5px black;
+ 
+ }
+ #mission {
+     font-size: 1.6rem;
+ }
+ #send {
+     color: green;
+ }
+ #reset {
+     color: green;
+ }
