@@ -8,13 +8,20 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+    integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+    crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+   integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+   crossorigin=""></script>
+ 
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
 <body>
-
+    <div id="mapid"></div>
     <div class="container" style="text-align: center">
-
+<h2 style="color: white"> Oscar Enriquez</h2>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
@@ -27,20 +34,21 @@
             <div class="carousel-inner">
                 <!-- <h2 id="Name">Oscar Enriquez</h2> -->
                 <div class="item active">
-                        <h2 id="Name">Oscar Enriquez</h2>
+                        <!-- <h2 id="Name">Oscar Enriquez</h2> -->
 
                     <img class="top"
                         src="https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                         alt="Clouds" style="width:100%;">
                     <img class="bottom" src="assets/Oscar Bio Pic.jpeg" alt="profile">
-                    <div class="carousel-caption">
-                        <h3 style="font-family: fantasy; color:black">About</h3>
-                        <p id="mission" style="font-family: fantasy; color: black">Looking to transfer my business management skills
+                    <div class="carousel-caption"> <br><br>
+                        <h3 style="font-family: fantasy; color:white">About</h3>
+                        <p id="mission" style="font-family: fantasy; color: white">Looking to transfer my business management skills
                             to a back end developer full time job.
                             Recently
                             earned a certificate from University of Connecticut in Full Stack Development. Skills
                             learned
-                            include HTML, CSS, JavascriptSkills, and node.js. Skills acquired from previous experience
+                            include HTML,
+                             CSS, JavascriptSkills, and node.js. Skills acquired from previous experience
                             include
                             but not limited to Team management, Talent development, Excellent Customer Service, Develop
                             professional relationships with vendors and suppliers. Excellent communication skills both
@@ -61,7 +69,7 @@
                     <p id="top1">“Great minds discuss ideas; average minds discuss events; small minds discuss people.”
                         -Eleanor Roosevelt</p>
                     <img src="https://images.pexels.com/photos/1054222/pexels-photo-1054222.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                        alt="Mountains1" style="width:100%;">
+                        alt="Mountains1" style="width:100%;" id="second_slide" >
                     <p id="top1">“Great minds discuss ideas; average minds discuss events; small minds discuss people.”
                         -Eleanor Roosevelt</p>
                     <div class="carousel-caption">
@@ -75,6 +83,8 @@
                         <a href="https://vipergts12.github.io/Trivia-Game-/">
                             <p id="link3" >Trivia Game</p>
                         </a>
+                        <a href="https://vipergts12.github.io/The-wild-Music-Experience-1.0/">
+                        <p id="link4">The wild music experience</p></a>
                     </div>
                 </div>
 
@@ -82,11 +92,11 @@
                         <p id="quote2"> “Those who dare to fail miserably can achieve greatly.”
                                 -John F. Kennedy</p>
                     <img src="https://images.pexels.com/photos/1054218/pexels-photo-1054218.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
-                        alt="Mountains2" style="width:100%;">
+                        alt="Mountains2" style="width:100%;" id="third_slide" >
                    <p id="quote2"> “Those who dare to fail miserably can achieve greatly.”
                     -John F. Kennedy</p>
                     <div class="carousel-caption">
-                        <h3>How to get in contact:</h3>
+                        <h3>For job offers please</h3>
                         <form action="mailto:vipergts_12@yahoo.com" method="post" enctype="text/plain"  class="input text required">
                             Contact me<br>
                             <!-- <input style="color: black" type="text" name="name"><br> -->
@@ -112,7 +122,7 @@
             </a>
         </div>
     </div>
-
+<script type="text/javascript" src="Portfolio/assets/javascript/app.js"></script>
 </body>
 
 </html>
